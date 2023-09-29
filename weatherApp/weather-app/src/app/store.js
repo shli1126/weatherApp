@@ -4,7 +4,7 @@ import forecastWeatherReducer from '../features/home/forecastWeatherSlice'
 import favoriteReducer from '../features/favorite/favoriteSlice'
 const store = configureStore({
     reducer: {
-        current: currentWeatherReducer, // Add your homeSlice reducer here
+        current: currentWeatherReducer,
         forecast: forecastWeatherReducer,
         favorite: favoriteReducer
     },

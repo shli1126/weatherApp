@@ -1,4 +1,6 @@
 const ForecastWeatherItem = ({ forecast }) => {
+    //There are total 5 days, each day has 8 weather data because it updates every 3 hours throughout the day
+    //First group the data by days and then find their highest and lowest
     const groupByDay = (forecastData) => {
         const groupedData = {};
         forecastData.forEach((day) => {
