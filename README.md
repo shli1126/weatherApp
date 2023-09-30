@@ -1,3 +1,5 @@
+# weatherApp
+
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
@@ -17,10 +19,12 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-4. create a file called config.js in src, inside config.js, copy and paste export const API_KEY = [your api key]
+4. create a file called config.js in src, inside config.js, copy and paste the following
+    ```sh
+   export const API_KEY = [your api key]
    ```
-. Start the app
+
+5. Start the app
 	```sh
 	npm start
 	```
-
